@@ -3,3 +3,5 @@ package-lock.json
 dist
 .parcel-cache
 .firebase
+firebase.json
+.firebaserc
