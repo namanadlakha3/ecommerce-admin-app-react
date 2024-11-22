@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "E-commerce Application built in react",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "author": "Naman Adlakha",
