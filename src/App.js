@@ -1,7 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
+import AdminPortal from "./components/AdminPortal";
 
 const rootElement = document.getElementById("root");
 const root = ReactDOM.createRoot(rootElement);
 
-root.render(<><h1 className="border-lime-200 border-2 bg-black text-red-50">Hello</h1></>);
+const AppLayoutComponent = () => {
+  return <AdminPortal />;
+};
+
+root.render(<AppLayoutComponent />);
