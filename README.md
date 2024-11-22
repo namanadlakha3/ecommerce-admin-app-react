@@ -1,1 +1,1 @@
-# ecommerce-app-react
+# E-Commerce Application built in React
