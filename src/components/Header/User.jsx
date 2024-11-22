@@ -18,12 +18,10 @@ const User = (props) => {
           setMenuPopup(true);
         }}
         className="cursor-pointer"
-        aria-describedby={"id"}
       />
       {menuPopup ? (
         <Popper
-          open={open}
-          id={"id"}
+          open={true}
           placement="bottom-start"
           transition
           disablePortal
@@ -37,7 +35,7 @@ const User = (props) => {
           <Paper>
             <ClickAwayListener onClickAway={handleClose}>
               <MenuList
-                autoFocusItem={open}
+                autoFocusItem={true}
                 id="composition-menu"
                 aria-labelledby="composition-button"
               >
